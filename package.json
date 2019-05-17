@@ -1,0 +1,23 @@
+{
+  "name": "node-holidayapi",
+  "version": "1.0.0",
+  "description": "Official Node.js library for HolidayAPI.pl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holidayapi-pl/node-holidayapi.git"
+  },
+  "support": {
+    "issues": "https://github.com/holidayapi-pl/node-holidayapi/issues"
+  },
+  "keywords": [ "holiday", "holidays", "holidayapi" ],
+  "author": "Szymon Dukla <7996340+SzymonDukla@users.noreply.github.com> (https://holidayapi.pl)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/holidayapi-pl/node-holidayapi/issues"
+  },
+  "homepage": "https://holidayapi.pl"
+}
