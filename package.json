@@ -1,5 +1,5 @@
 {
-  "name": "node-holidayapi",
+  "name": "holidayapi-node",
   "version": "1.0.0",
   "description": "Official Node.js library for HolidayAPI.pl",
   "main": "index.js",
