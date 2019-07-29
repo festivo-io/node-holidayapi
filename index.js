@@ -2,17 +2,17 @@
 
 var https = require('https');
 
-var HolidayAPI = function (key) {
+var FestivoAPI = function (key) {
   if ('undefined' !== typeof key) {
-    HolidayAPI.prototype.key = key;
+    FestivoAPI.prototype.key = key;
   }
 };
 
-HolidayAPI.prototype.v1 = {};
+FestivoAPI.prototype.v1 = {};
 
-HolidayAPI.prototype.v1.holidays = function (parameters, callback) {
-  var url = 'https://holidayapi.pl/v1/holidays';
-  var querystring = '?key=' + HolidayAPI.prototype.key;
+FestivoAPI.prototype.v1.holidays = function (parameters, callback) {
+  var url = 'https://getfestivo.com/v1/holidays';
+  var querystring = '?key=' + FestivoAPI.prototype.key;
 
   if ('object' === typeof parameters) {
     for (var parameter in parameters) {
@@ -47,5 +47,5 @@ HolidayAPI.prototype.v1.holidays = function (parameters, callback) {
   });
 };
 
-module.exports = HolidayAPI;
+module.exports = FestivoAPI;
 
