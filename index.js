@@ -12,7 +12,7 @@ FestivoAPI.prototype.v1 = {};
 
 FestivoAPI.prototype.v1.holidays = function (parameters, callback) {
   var url = 'https://getfestivo.com/v1/holidays';
-  var querystring = '?key=' + FestivoAPI.prototype.key;
+  var querystring = '?api_key=' + FestivoAPI.prototype.key;
 
   if ('object' === typeof parameters) {
     for (var parameter in parameters) {
